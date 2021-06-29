@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mythologybookapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MythologyBookApp">
+        <activity android:name=".Demeter"></activity>
+        <activity android:name=".Zeus" />
+        <activity android:name=".Hestia" />
+        <activity android:name=".Hephaestus" />
+        <activity android:name=".Poseidon" />
+        <activity android:name=".Hera" />
+        <activity android:name=".Hermes" />
+        <activity android:name=".Dionysus" />
+        <activity android:name=".Hades" />
+        <activity android:name=".Athena" />
+        <activity android:name=".Aphrodite" />
+        <activity android:name=".Artemis" />
+        <activity android:name=".Ares" />
+        <activity android:name=".Apollo" />
+        <activity android:name=".Olympian1" />
+        <activity android:name=".Olympian" />
+        <activity android:name=".Gods" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
